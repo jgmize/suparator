@@ -1,0 +1,21 @@
+* 2025-06-29
+
+** 202506290126
+
+#+begin_src bash
+  cd ~/src
+  mkdir -p suparator
+  cd suparator
+  git init
+  e .org
+#+end_src
+
+** 202506290127
+
+- [X] [[./Dockerfile]]
+- [X] [[./.github/workflows/ci.yml]]
+- [ ] initial commit
+- [ ] create github repo & push initial commit
+  #+begin_src bash
+    gh repo create suparator --push
+  #+end_src
