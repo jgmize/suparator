@@ -14,8 +14,14 @@
 
 - [X] [[./Dockerfile]]
 - [X] [[./.github/workflows/ci.yml]]
-- [ ] initial commit
-- [ ] create github repo & push initial commit
+- [X] initial commit
+- [X] create github repo & push initial commit
   #+begin_src bash
-    gh repo create suparator --push
+    gh repo create suparator --push --public -s ~/src/suparator
   #+end_src
+  - [[https://github.com/jgmize/suparator/actions/runs/15952799547][Add initial Dockerfile & CI · jgmize/suparator@d5b5d87]]
+    The workflow is not valid. .github/workflows/ci.yml (Line: 29, Col: 19):
+    Unrecognized named-value: 'sha'. Located at position 1 within expression: shaI
+    - [X] hardcode v0.1 for initial build
+- [ ] [[./LICENSE]]
+  - MPL 2
