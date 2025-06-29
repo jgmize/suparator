@@ -23,5 +23,10 @@
     The workflow is not valid. .github/workflows/ci.yml (Line: 29, Col: 19):
     Unrecognized named-value: 'sha'. Located at position 1 within expression: shaI
     - [X] hardcode v0.1 for initial build
+- [[https://github.com/jgmize/suparator/actions/runs/15952903273][Build v0.1 · jgmize/suparator@5a6608f]]
+  - Error response from daemon: Get "https://registry-1.docker.io/v2/":
+    unauthorized: your account must log in with a Personal Access Token (PAT) -
+    learn more at [[https://docs.docker.com/go/access-tokens]]
+    - [X] add PAT
 - [ ] [[./LICENSE]]
   - MPL 2
