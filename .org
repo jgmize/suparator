@@ -28,5 +28,24 @@
     unauthorized: your account must log in with a Personal Access Token (PAT) -
     learn more at [[https://docs.docker.com/go/access-tokens]]
     - [X] add PAT
+- [[https://github.com/jgmize/suparator/actions/runs/15953008588/job/44995538360][Add docker PAT to CI · jgmize/suparator@5667723]]
+  - login action failed on second try
 - [ ] [[./LICENSE]]
   - MPL 2
+
+** 202506291041
+
+- [[https://github.com/jgmize/suparator/actions/runs/15956806023][Push to docker hub · jgmize/suparator@16ce92c]]
+  - failed to build: invalid tag "jgmize/suparator:v0.1:main"
+- https://github.com/jgmize/suparator/actions/runs/15956859548
+  - https://hub.docker.com/r/jgmize/suparator/tags
+    #+begin_src bash
+      docker pull jgmize/suparator:main
+    #+end_src
+
+** 202506291805
+
+- [ ] add cloud cli tools to [[./Dockerfile]]
+  - [ ] gcloud
+  - [ ] aws
+  - [ ] az

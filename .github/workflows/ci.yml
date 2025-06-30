@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - dev
+      - gcloud
 permissions:
   contents: read
   packages: write
