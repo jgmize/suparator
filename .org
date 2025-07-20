@@ -45,7 +45,11 @@
 
 ** 202506291805
 
-- [ ] add cloud cli tools to [[./Dockerfile]]
-  - [ ] gcloud
-  - [ ] aws
-  - [ ] az
+- [X] add cloud cli tools to [[./Dockerfile]]
+  - [X] gcloud
+    - [[https://github.com/jgmize/suparator/actions/runs/15963540193][Switch base image · jgmize/suparator@3756eaa]]
+    - [X] image: jgmize/suparator:gcloud
+  - [X] port from [[https://github.com/jgmize/dotfiles/blob/gcloud-slim/.docker/gcloud-slim][dotfiles gcloud-slim]]:
+    - [X] aws
+    - [X] az
+    - [X] nonroot
